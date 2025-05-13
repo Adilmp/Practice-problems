@@ -5,4 +5,5 @@ class Solution(object):
             if num in seen:
                 return num
         return -1
-#O(n) = Time complexity
+#O(n+m) = Time complexity
+#O(n) = space complexity converting list into set
